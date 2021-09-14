@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>灵云墙</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/mian.css" />
+	</head>
+
+	<body>
+		<div id="zhu">
+			<!--日历-->
+			<section>
+				<div class="box">
+					<div class="container">
+						<div class="dycalendar"></div>
+					</div>
+				</div>
+			</section>
+			<!--回到顶部-->
+			<div id="gotop">
+				<img src="img/copy.png" alt="gotop" title="回到顶部">
+			</div>
+			<!--切换样式-->
+			<div class="buttons">
+				<button class='alt'>
+			      <span>♥</span>
+			    </button>
+			</div>
+			<!--顶部-->
+			<div class="dingbu">
+				<div class="zhezhao"></div>
+				<!--logo-->
+				<div class="logo" title="你点一下我呀！！！">
+					<img src="img/IMG_20201213_200953.jpg" />
+				</div>
+				<!--logo end-->
+
+				<!--关于-->
+				<div class="guanyu" title="关于">
+					<img src="img/关于.png" />
+				</div>
+				<!--关于end-->
+
+				<!--时间-->
+				<div class="time">
+					<div>
+						<span>Time:&nbsp;</span>
+						<span class="shijian"></span>
+						<span>&nbsp;pm</span>
+					</div>
+				</div>
+				<!--时间end-->
+
+				<!--导航栏-->
+				<div class="daohang">
+					<ul>
+						<li class="dhg0">活动页</li>
+						<li class="dhg1">活动页</li>
+						<li class="dhg2">活动页</li>
+						<li class="dhg3">活动页</li>
+						<li class="dhg4">活动页</li>
+						<li class="dhg5">活动页</li>
+						<li class="dhg6">活动页</li>
+						<li class="dhg7">活动页</li>
+						<li class="dhg8">活动页</li>
+					</ul>
+				</div>
+				<!--导航栏end-->
+			</div>
+			<!--顶部end-->
+
+			<!--内容-->
+			<div class="zhu1">
+				<!--内容—导航栏-->
+				<div class="lunbo">
+					<ul id="banner"></ul>
+				</div>
+				<div class="mk1">
+					<div class="mk1_a">
+						<main class="container">
+							<div class="tab-container">
+								<div class="tabs">
+									<div id="tab1" class="tab active">活动一</div>
+									<div id="tab2" class="tab">活动二</div>
+									<div id="tab3" class="tab">活动三</div>
+									<div id="tab4" class="tab">活动四</div>
+								</div>
+								<div class="tab-content">
+									<div data-tab="tab1" style="display: block">
+										<h2>选项 1 内容</h2>
+										<img src="./icons/icon1.svg" alt="图标 1" />
+									</div>
+									<div data-tab="tab2" style="display: none">
+										<h2>选项 2 内容</h2>
+										<img src="./icons/icon2.svg" alt="图标 2" />
+									</div>
+									<div data-tab="tab3" style="display: none">
+										<h2>选项 3 内容</h2>
+										<img src="./icons/icon3.svg" alt="图标 3" />
+									</div>
+									<div data-tab="tab4" style="display: none">
+										<h2>选项 4 内容</h2>
+										<img src="./icons/icon3.svg" alt="图标 3" />
+									</div>
+								</div>
+							</div>
+						</main>
+					</div>
+					<div class="mk1_b"></div>
+					<div class="mk1_c"></div>
+					<div class="mk1_d"></div>
+					<div class="mk1_e">
+						<input type="text" name="" placeholder="账号">
+						<input type="password" name="" placeholder="密码">
+					</div>
+				</div>
+				<div class="mk4">
+					<div class="mk4_a">
+						<div style="float:left;margin-left: 10px;margin-top: 5px;">
+							<h3>物品招领</h3></div>
+						<div id="scroll_logo2">
+							<div id="pic_box">
+								<a href="#"><img src="img/1.jpg" /></a><br />
+								<a href="#"><img src="img/2.jpg" /></a><br />
+								<a href="#"><img src="img/3.jpg" /></a><br />
+								<a href="#"><img src="img/4.jpg" /></a><br />
+								<a href="#"><img src="img/5.jpg" /></a><br />
+								<a href="#"><img src="img/11.jpg" /></a><br />
+							</div>
+							<div id="pic_box_b"></div>
+						</div>
+					</div>
+					<div class="mk4_b"></div>
+					<div class="mk4_c">
+						<div class="changeList">
+							<dl>
+								<dt id="b1" style="display:none" onmouseover="changebox(1);">
+						      <p>网站公告...</p>
+						      <em><img src="images/shu1.gif"  width="29" height="37"/></em></dt>
+								<dd id="a1">
+									<h1><img src="images/shu1_1.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank"></a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b2" onmouseover="changebox(2);">
+						      <p>网页特效集锦...</p>
+						      <em><img src="images/shu2.gif" width="29" height="37"/></em></dt>
+								<dd id="a2" style="display:none;">
+									<h1><img src="images/shu1_2.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">上下箭头渐变图文切换（多张）相册特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b3" onmouseover="changebox(3);">
+						      <p>新闻列表滑过网页特效...</p>
+						      <em><img src="images/shu3.gif"  width="29" height="37"/></em></dt>
+								<dd id="a3" style="display:none;">
+									<h1><img src="images/shu1_3.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">多图片左右渐变轮播展示相册</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b4" onmouseover="changebox(4);">
+						      <p>鼠标滑过改变标签内容...</p>
+						      <em><img src="images/shu4.gif"  width="29" height="37"/></em></dt>
+								<dd id="a4" style="display:none;">
+									<h1><img src="images/shu1_4.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">带左右箭头+按钮弹性滑动焦点图</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b5" onmouseover="changebox(5);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a5" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b6" onmouseover="changebox(6);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a6" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b7" onmouseover="changebox(7);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a7" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b8" onmouseover="changebox(8);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a8" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b9" onmouseover="changebox(9);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a9" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt id="b10" onmouseover="changebox(10);">
+						      <p>网站建设、网站制作</p>
+						      <em><img src="images/shu5.gif"  width="29" height="37"/></em></dt>
+								<dd id="a10" style="display:none;">
+									<h1><img src="images/shu1_5.gif" width="29" height="49" /></h1>
+									<div class="changeListText">
+										<a href="" target="_blank">仿腾讯/新浪图片展示网页特效</a>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="mk2">
+					<ul class="mk2_a">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="mk3">
+					<div class="mk3_a"></div>
+					<ul class="mk3_b">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<!--内容end-->
+
+			<!--底部布局-->
+			<div class="bottom">
+				<div>
+					<p>
+						前端学习组成员：吴徐勇，邓相特。
+					</p>
+					<p>
+						灵云小组负责人qq:2419311435
+					</p>
+				</div>
+			</div>
+			<!--底部end-->
+
+			<div class="tanchuang">
+				<div class="end">
+					<img src="img/end.png" />
+				</div>
+				<div>
+					这个网页还在开发中
+				</div>
+			</div>
+			<!--<div class="tanchuang1">
+				<div class="end1">
+					<img src="img/end.png"/>
+					
+				</div>
+				<div class="dm">
+						<p class="jdtck">
+							
+						</p>
+					</div>
+			</div>-->
+		</div>
+		<script src="js/tab.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/dycalendar.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/hddb.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rili.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/hddb.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/qiehuan.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/time.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lunbo.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
